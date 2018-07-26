@@ -7,8 +7,8 @@ import styled from 'styled-components';
 
 // Create a <Title> react component that renders an <h1> which is
 // centered, palevioletred and sized at 1.5em
-const Title = styled.div`
-  width: 1.5em;
+const Tag = styled.div`
+  padding: 15px;
   text-align: center;
   color: palevioletred;
 `;
