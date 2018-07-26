@@ -5,8 +5,9 @@
   "author": "Hunter Chang",
   "dependencies": {
     "gatsby": "^1.9.235",
-    "gatsby-link": "^1.6.39",
     "gatsby-image": "^1.0.42",
+    "gatsby-link": "^1.6.39",
+    "gatsby-plugin-antd": "^1.0.12",
     "gatsby-plugin-google-analytics": "^1.0.24",
     "gatsby-plugin-react-helmet": "^1.0.8",
     "gatsby-plugin-sass": "^1.0.23",
@@ -16,7 +17,10 @@
     "gatsby-source-filesystem": "^1.5.27",
     "gatsby-transformer-remark": "^1.7.37",
     "gatsby-transformer-sharp": "^1.6.22",
-    "lodash": "^4.17.4"
+    "less": "^3.8.0",
+    "lodash": "^4.17.4",
+    "moment": "^2.22.2",
+    "styled-components": "^3.3.3"
   },
   "homepage": "https://github.com/ChangoMan/gatsby-starter-forty",
   "keywords": [
@@ -35,5 +39,8 @@
     "develop": "gatsby develop",
     "build": "gatsby build",
     "fix-semi": "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.8.0"
   }
 }

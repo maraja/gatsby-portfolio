@@ -9,6 +9,7 @@ const Menu = (props) => (
                 <li><Link onClick={props.onToggleMenu} to="/landing">Landing</Link></li>
                 <li><Link onClick={props.onToggleMenu} to="/banana">Banana</Link></li>
                 <li><Link onClick={props.onToggleMenu} to="/generic">Generic</Link></li>
+                <li><Link onClick={props.onToggleMenu} to="/projects">Projects</Link></li>
                 <li><Link onClick={props.onToggleMenu} to="/elements">Elements</Link></li>
             </ul>
             <ul className="actions vertical">
